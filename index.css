@@ -916,84 +916,858 @@ h3{
 
 /* Styles for devices with screen width up to 375px */
 
-@media (max-width: 375px) {}
-    .First-container{
+@media (max-width: 575.98px) {
+
+    .First-container {
         width: 100%;
         height: auto;
-        padding: 0.5rem 1rem 0.5rem 1rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        overflow: hidden;
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
+    .main-content{
+        margin: 0;
+        padding: 0%;
+    }
+
     
-    .top-section{
+    .top-section {
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
-    .harmburger-container img{
-        width: 1.5rem;
-        height: 1.5rem;
+        margin: 0%;
+        padding: 0% 1.9rem 0rem 1.9rem;
     }
 
-    .logo-container img{
-        width: 4rem;
-        height: 4rem;
-    }
-    
-    .top-center{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        column-gap: 1rem;
+    .harmburger-container img {
+        width: 2rem;
+        height: 2rem;
     }
 
-
-    .search{
-        width: fit-content;
-        height: auto;
-        
+    .logo-container img {
+        width: 5rem;
+        height: 5rem;
     }
-    .search-bar{
-        width: 20rem;
-        height: fit-content;
-        padding: 0.9rem 1.5rem 0.9rem 1.5rem;
-        border-top-left-radius: 100rem;
-        border-bottom-left-radius: 100rem;
-        border: 0.1rem solid #dcdcdc;
-        font-size: 1.1rem;
-        
-    }
-    
     
     .search-icon{
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.8rem 1.5rem 0.8rem 1.5rem;
-        border-top-right-radius: 100rem;
-        border-bottom-right-radius: 100rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 0;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
         border-left: none;
-        border: 0.1rem solid #dcdcdc;
-        background-color: #f8f8f8;
+        border: 0rem;
+        background-color: transparent;
+    }
+
+
+    .search-bar {
+    
+        display: none;
     }
     
-     
-    <div class="top-center">
-    <div class="search-and-icon-container">
-        <div class="search">
-            <input type="text" placeholder="Search" class="search-bar">
-        </div>
-        <div class="search-icon">
-            <img src="./img/search-normal.svg" alt="">
-        </div>
-    </div>
-    <div class="microphone-container">
-        <img src="./img/Dic.svg" alt="">
-    </div>
-</div>
+    
+    .top-center{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .search-and-icon-container{
+        width: fit-content;
+        height: auto;
+        gap: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .search{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+    }
+
+    .microphone-container{
+        display: none;
+    }
+    
+    .top-left-section{
+        display: none;
+    }
+    .video-icon{
+        display: none;
+    }
+    
+    
+    .notification-icon{
+        display: none;
+    }
+    
+    .my-dp{
+        display: none;
+        
+    }
+    .pic{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+        display: block;
+        display: none;
+    }
+    
+    .slider p{
+        font-size: 0.7rem;
+        
+    }
+
+    .slider{
+        width: 100%s;
+        column-gap: 1rem;
+        white-space: nowrap;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        margin: none;
+        padding: 0%;
+
+    }
+
+    .video-frame-full{
+        display: flex;
+        flex-direction: column;
+    }
+
+     h3{
+        font-size: 0.9rem;
+        font-weight: lighter;
+        
+        
+    }
+
+    .discon{
+        margin: 0;
+        padding: 0;
+    }
+
+    .des-icon{
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-boys{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .time-seasons{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 0.5rem;
+
+        color: #808080;
+    }
+    h3{
+        color: rgb(23, 23, 23);
+        font-weight: 500;
+        line-height: normal;
+    }
+    .v{
+        padding-bottom: 0.4rem;
+    }
+    .you-name{
+        
+        color: #808080;
+    }
+    
+    .des-icon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 0.3rem;
+    }
+    .discon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 0.2rem;
+        
+    }
+    .discon h3{
+        line-height: normal;
+    }
+
+    .you-name p{
+        font-size: 0.9rem;
+    }
+
+    .views p{
+        font-size: 0.8rem;
+    
+    }
+    .top-conten{
+    display: block;
+    }
+
+    .video-frame-full{
+    margin: 0;
+    padding: 0;
+    }
+    .video-text-asp{
+    padding: 0;
+    margin: 0;
+    }
+
+
+    .main-content{
+    margin: 0;
+    padding: 0rem;
+    
+    }
+
+    .video-frame-full{
+    padding: 0%;
+    margin: 0;
+    }
+    .top-content{
+    visibility: hidden;
+    }
+
+
+
+    
+    }
+    
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        /* Styles for small devices */
+
+    .First-container {
+            width: 100%;
+            height: auto;
+            padding: 0rem 1rem 0rem 1rem;
+            overflow: hidden;
+            margin: 0%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+     }
+    .main-content{
+            margin: 0;
+            padding: 0%;
+    }
+
+
+    .video-text-asp.man{
+        display: none;
+    }
+        
+    .video-text-asp.g{
+        display: none;
+    }
+    
+    .video-text-asp.u{
+        display: none;
+    }
+    
+
+    .video-frame-full{
+        column-gap:1rem;
+    }
+
+
+    .discon{
+        margin: 0;
+        padding: 0;
+    }
+
+    .des-icon{
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-boys{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .time-seasons{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 0.5rem;
+
+        color: #808080;
+    }
+    .main-content h3{
+        color: rgb(23, 23, 23);
+        font-weight: 600;
+        line-height: normal;
+        font-size: 1rem;
+    }
+    .v{
+        padding-bottom: 0.4rem;
+    }
+    .you-name{
+        
+        color: #808080;
+    }
+    
+    .des-icon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 0.3rem;
+    }
+    .discon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 0.5rem;
+        
+    }
+    .discon h3{
+        line-height: normal;
+    }
+
+    .you-name p{
+        font-size: 0.9rem;
+    }
+
+    .views p{
+        font-size: 0.8rem;
+    
+    }
+    .top-conten{
+    display: block;
+    }
+
+
+    .slider p{
+        font-size: 0.7rem;
+        
+    }
+
+    .slider{
+        width: 100%s;
+        column-gap: 1rem;
+        white-space: nowrap;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        margin: none;
+        padding: 0%;
+        scrollbar-color: white;
+
+    }
+
+    .nav-bar p h3{
+        display: none;
+    }
+    
+    .nav-bar h3{
+        display: none;
+        
+    }
+    .nav-bar{
+        padding-top: 23.5rem;
+    }
+    .subscriptions-text{
+        display: none;
+    }
+
+    #hide {
+        display: none;
+    }
+    #sub{
+        display: none;
+    }
+
+    .you-text{
+        display: none;
+    }
+   .logo-container img{
+    width: 6rem;
+    height: auto;
+   }
+   .top-section{
+    padding-top: 1.5rem;
+   }
+.top-center{
+    width: 16rem;
+    border: none;
+
+}
+.search-and-icon-container{
+    width: 16rem;
+
+    height: 2.5em;
+    row-gap: 0rem;
+    
+    
+   
+}
+
+.search{
+    width: 4rem;
+    height: 2.5rem;
+    justify-content: flex-end;
+}
+.search input{
+    border: none;
+    width: 12.8rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    border: 0.1rem solid rgb(245, 245, 245);
+   
+}
+.video-icon{
+    display: none;
+}
+.search-icon{
+    height: 2.5rem;
+    width: 1rem;
+    margin-left: 8.8rem;
+    border: 0.1rem solid rgb(245, 245, 245);
+}
+
+.microphone-container{
+    background-color: transparent;
+}
+
+.microphone-container{
+    display: none;
+}
+
+
+.home-and-icon{
+    background-color: transparent;
+}
+
+.botttom-section{
+    row-gap: 1rem;
+}
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .First-container {
+        width: 100%;
+        height: auto;
+        padding: 0rem 1rem 0rem 1rem;
+        overflow: hidden;
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+ }
+.main-content{
+        margin: 0;
+        padding: 0%;
+}
+
+
+.video-text-asp.man{
+    
+}
+    
+.video-text-asp.g{
+
+}
+
+.video-text-asp.u{
+    
+}
+
+
+.video-frame-full{
+    column-gap:1rem;
+}
+
+
+.discon{
+    margin: 0;
+    padding: 0;
+}
+
+.des-icon{
+    margin: 0;
+    padding: 0;
+}
+
+.small-boys{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.time-seasons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5rem;
+
+    color: #808080;
+}
+.main-content h3{
+    color: rgb(23, 23, 23);
+    font-weight: 600;
+    line-height: normal;
+    font-size: 1rem;
+}
+.v{
+    padding-bottom: 0.4rem;
+}
+.you-name{
+    
+    color: #808080;
+}
+
+.des-icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 0.3rem;
+}
+.discon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 0.5rem;
+    
+}
+.discon h3{
+    line-height: normal;
+}
+
+.you-name p{
+    font-size: 0.9rem;
+}
+
+.views p{
+    font-size: 0.8rem;
+
+}
+.top-conten{
+display: block;
+}
+
+
+.slider p{
+    font-size: 0.7rem;
+    
+}
+
+.slider{
+    width: 100%s;
+    column-gap: 1rem;
+    white-space: nowrap;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin: none;
+    padding: 0%;
+    scrollbar-color: white;
+
+}
+
+.nav-bar p h3{
+    
+}
+
+.nav-bar h3{
+  font-size: 0.8rem;
+    
+}
+.nav-bar{
+    padding-top: 18rem;
+
+}
+
+#hide {
+    display: none;
+}
+#sub{
+    display: none;
+}
+
+.you-text{
+    display: none;
+}
+.logo-container img{
+width: 6rem;
+height: auto;
+}
+.top-section{
+padding-top: 1.5rem;
+}
+.top-center{
+width: 16rem;
+border: none;
+
+}
+.search-and-icon-container{
+width: 16rem;
+
+height: 2.5em;
+row-gap: 0rem;
+
+
+
+}
+
+.search{
+width: 4rem;
+height: 2.5rem;
+justify-content: flex-end;
+}
+.search input{
+border: none;
+width: 12.8rem;
+height: 2.5rem;
+padding-left: 1rem;
+font-size: 0.9rem;
+border: 0.1rem solid rgb(245, 245, 245);
+
+}
+.video-icon{
+
+}
+.search-icon{
+height: 2.5rem;
+width: 1rem;
+margin-left: 8.8rem;
+border: 0.1rem solid rgb(245, 245, 245);
+}
+
+.microphone-container{
+background-color: transparent;
+}
+
+.microphone-container{
+display: none;
+}
+
+
+.home-and-icon{
+background-color: transparent;
+}
+
+.botttom-section{
+row-gap: 1rem;
+}
+
+.home-and-icon, .shorts-and-icon, .subscription-and-icon,.you-and-icon, .history-and-icon,.playlist-and-icon, .yourvideos-and-icon, .watchlater-and-icon, .liked-and-icon, .first-sub, .trending-icon, .music-icon, .gaming-icon, .newsing-icon,.sporting-icon, .sub, .premium-icon,.sixth-section-nav, .settings-and-icon, .report-and-icon, .help-and-icon, .feedback-and-icon{
+    font-size: 0.7rem;
+    column-gap: 0.5rem;
+    line-height: normal;
+    
+}
+.nav-bar{
+    width: 30%;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for large devices */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+    
+    
+    
+
